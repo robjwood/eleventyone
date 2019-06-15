@@ -1,6 +1,6 @@
 ---
-title: Title here
-subtitle: A project scaffold for getting building with Eleventy quickly.
+title: Applicant homepage
+subtitle: Here it is
 layout: layouts/base.njk
 ---
 

@@ -1,0 +1,17 @@
+/* FORMS
+===========================================
+===========================================*/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+  th, td {
+    border: 1px solid var(--Grey);
+    padding: var(--u1);
+  }  
+
+  th {
+    text-align: left;
+  }

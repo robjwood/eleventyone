@@ -1,11 +1,251 @@
-/* breakpoints for media queries */
+/*
+VARIABLES
+==============================================
+==============================================
+*/
+
+ :root {
+
+  --grey90:         hsla(214,15%,20%,1);
+  --grey80:         hsla(214,10%,30%,1);
+  --grey70:         hsla(214,10%,40%,1);
+  --grey60:         hsla(214,10%,45%,1);
+  --grey:           hsla(214,10%,50%,1);
+  --grey40:         hsla(214,10%,65%,1);
+  --grey30:         hsla(214,10%,75%,1);
+  --grey20:         hsla(214,10%,90%,1);
+  --grey10:         hsla(214,10%,97%,1); 
+
+  --u1: 0.35rem;
+  --u2: 1rem;
+  --u3: 1.5rem;
+  --u4: 2rem;
+  --u5: 4rem;
+  --u6: 8rem;
+  --u7: 16rem;
+
+  --f-headline:     6rem;
+  --f-subheadline:  5rem;
+
+  --f1: 2.4rem;
+  --f2: 1.9rem;
+  --f3: 1.6rem;
+  --f4: 1.2rem;
+  --f5: 1rem;
+  --f6: .8rem;
+  --f7: .6rem;
+
+  --lh-copy:  1.5;
+  --lh-title: 1.2;
+
+  --brand-font:        		"Poppins", "Helvetica Neue", Arial, sans-serif;
+  --brand-font-bold:      "Poppins", "Helvetica Neue", Arial, sans-serif;
+  --brand-font-secondary: Arial, "Helvetica Neue", sans-serif;
+
+
+  /*
+  // Brand colours
+  // -----------------------------------------
+  */
+
+  /* Greyscale  */
+
+  
+  --White:          hsla(0,0,100,1); 
+
+  --Grey90:         hsla(214,15%,20%,1);
+  --Grey80:         hsla(214,10%,30%,1);
+  --Grey70:         hsla(214,10%,40%,1);
+  --Grey60:         hsla(214,10%,45%,1);
+  --Grey:           hsla(214,10%,50%,1);
+  --Grey40:         hsla(214,10%,65%,1);
+  --Grey30:         hsla(214,10%,75%,1);
+  --Grey20:         hsla(214,10%,90%,1);
+  --Grey10:         hsla(214,10%,97%,1); 
+
+  --Black:          hsla(0,0,0,1);
+  
+  
+  
+  /* // Blue - http://davidjohnstone.net/pages/lch-lab-colour-gradient-picker#0c2039,1c5092,f4f7fa */
+
+  --Blue90:           hsla(214,68%,13%,1);
+  --Blue80:           hsla(214,68%,20%,1);
+  --Blue70:           hsla(214,68%,27%,1);
+  --Blue60:           hsla(214,68%,27%,1);
+  --Blue:             hsla(214,68%,34%,1);
+  --Blue40:           hsla(223,32%,57%,1);
+  --Blue30:           hsla(223,32%,57%,1);
+  --Blue20:           hsla(223,32%,77%,1);
+  --Blue10:           hsla(223,32%,97%,1);
+
+
+
+  /* // Violet - http://davidjohnstone.net/pages/lch-lab-colour-gradient-picker#381a3a,8c4091,f9f5f9 */
+
+  --Violet900:         hsla(296,39%,16%,1);
+  --Violet800:         hsla(296,39%,24%,1);
+  --Violet700:         hsla(296,39%,33%,1);
+  --Violet:            hsla(296,39%,41%,1);
+  --Violet300:         hsla(300,27%,60%,1);
+  --Violet200:         hsla(300,27%,78%,1);
+  --Violet100:         hsla(300,27%,97%,1);
+    
+
+
+
+  /* // Pink - http://davidjohnstone.net/pages/lch-lab-colour-gradient-picker#500032,c7007f,fcf2f8 */
+
+  --Pink900:         hsla(322,100%,16%,1);
+  --Pink800:         hsla(322,100%,23%,1);
+  --Pink700:         hsla(322,100%,31%,1);
+  --Pink:            hsla(322,100%,39%,1);
+  --Pink300:         hsla(331,64%,65%,1);
+  --Pink200:         hsla(331,64%,82%,1);
+  --Pink100:         hsla(331,64%,97%,1);
+
+
+
+  /* // Aqua - http://davidjohnstone.net/pages/lch-lab-colour-gradient-picker#004456,00aad5,f2fbfd */
+  
+  --Aqua900:         hsla(193,100%,17%,1);
+  --Aqua800:         hsla(193,100%,25%,1);
+  --Aqua700:         hsla(193,93%,34%,1);
+  --Aqua:            hsla(193,86%,45%,1);
+  --Aqua300:         hsla(197,64%,69%,1);
+  --Aqua200:         hsla(197,64%,84%,1);
+  --Aqua100:         hsla(197,64%,97%,1);
+  
+
+
+  /* // Pear - http://davidjohnstone.net/pages/lch-lab-colour-gradient-picker#3c4d0c,95c11f,fafff4 */
+  
+  --Pear900:         hsla(76,72%,17%,1);
+  --Pear800:         hsla(76,72%,26%,1);
+  --Pear700:         hsla(76,72%,35%,1);
+  --Pear:            hsla(76,72%,44%,1);
+  --Pear300:         hsla(76,56%,64%,1);
+  --Pear200:         hsla(76,58%,81%,1);
+  --Pear100:         hsla(76,85%,97%,1);
+
+  
+
+  /* // Gold - http://davidjohnstone.net/pages/lch-lab-colour-gradient-picker#5a4200,e2a800,fefdfa  */
+  
+  --Gold900:         hsla(45,100%,18%,1);
+  --Gold800:         hsla(45,100%,26%,1);
+  --Gold700:         hsla(45,100%,35%,1);
+  --Gold:            hsla(45,100%,49%,1);
+  --Gold300:         hsla(45,100%,67%,1);
+  --Gold200:         hsla(45,100%,84%,1);
+  --Gold100:         hsla(45,100%,98%,1);
+
+
+
+  /* // Purple - http://davidjohnstone.net/pages/lch-lab-colour-gradient-picker#200330,500778,f6f2f8 */
+
+  --Purple900:         hsla(278,92%,10%,1);
+  --Purple800:         hsla(278,84%,15%,1);
+  --Purple700:         hsla(278,86%,20%,1);
+  --Purple:            hsla(278,88%,25%,1);
+  --Purple300:         hsla(278,29%,50%,1);
+  --Purple200:         hsla(278,29%,72%,1);
+  --Purple100:         hsla(278,30%,96%,1);
+    
+  
+
+  /* // Random colours */
+  --SkyBlue:           hsla(200,90,90,1);
+
+
+  /* // Units of measure
+  // ----------------------------------------- */
+
+  --u1: 0.5rem;
+  --u2: 1rem;
+  --u3: 1.5rem;
+  --u4: 2rem;
+  --u5: 4rem;
+  --u6: 8rem;
+  --u7: 16rem;
+
+
+  
+  /* // Font sizes
+  // ----------------------------------------- */
+
+  --f-headline: 6rem;
+  --f-subheadline: 5rem;
+
+  --f1: 2.4rem;
+  --f2: 1.9rem;
+  --f3: 1.6rem;
+  --f4: 1.2rem;
+  --f5: 1rem;
+  --f6: .8rem;
+  --f7: .6rem;
+
+  /* // Line heights
+  // ----------------------------------------- */
+
+  --lh-copy: 1.5;
+  --lh-title: 1.2;
+
+
+
+  /* // Fonts families
+  // -----------------------------------------
+ */
+  --BrandFont:        		"Poppins", "Helvetica Neue", Arial, sans-serif;
+	--BrandFontBold:      	"Poppins", "Helvetica Neue", Arial, sans-serif;
+	--BrandFontSecondary:  Arial, "Helvetica Neue", sans-serif;
+
+
+
+  /* // Breakpoints
+  // ----------------------------------------- */
+
+  --not-small-width: 400px;
+  --medium-width: 600px;
+  --large-width:  800px;
+ 
+
+
+
+
+}
+
+  
+  
+  /* // Media queries
+  // -----------------------------------------
+
+  @mixin mq-ns {
+    @media (min-width: #{--not-small-width}) {
+      @content;
+    }
+  }
+
+  @mixin mq-m {
+    @media (min-width: #{--medium-width}) {
+      @content;
+    }
+  }
+
+  @mixin mq-l {
+    @media (min-width: #{--large-width}) {
+      @content;
+    }
+  }
+  */
+  
+/*
 $narrow: 400px;
 $mid: 740px;
 $wide: 1200px;
 
-/* colours */
-$page-color: #2424bb;
 $text-color: #fff;
+$page-color: #2424bb;
 $accent-color: #27a4de;
 $dark-color: #000;
-
+*/

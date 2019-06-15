@@ -1,0 +1,22 @@
+/* LINKS
+===========================================
+===========================================*/
+
+a {
+  color: var(--Blue);
+  text-decoration-skip: ink;
+}
+
+a:visited {
+  color: var(--Blue);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  /* // background: #fea; */
+}
+
+a:active  {}

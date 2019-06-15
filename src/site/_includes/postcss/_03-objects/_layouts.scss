@@ -1,0 +1,34 @@
+/* LAYOUTS
+===========================================
+===========================================*/
+
+.o-wrapper {
+  margin: 0 auto;
+  padding-left: var(--u2);
+  padding-right: var(--u2);
+}
+
+.o-wrapper--s {
+  padding-left: var(--u1);
+  padding-right: var(--u1);
+}
+
+.o-wrapper--m {
+  padding-left: var(--u2);
+  padding-right: var(--u2);
+}
+
+.o-wrapper--l {
+  padding-left: var(--u3);
+  padding-right: var(--u3);
+}
+
+.o-wrapper--xl {
+  padding-left: var(--u4);
+  padding-right: var(--u4);
+}
+
+.o-wrapper--xxl {
+  padding-left: var(--u5);
+  padding-right: var(--u5);
+}
