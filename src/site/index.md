@@ -1,5 +1,5 @@
 ---
-title: This is a really new heading
+title: This is a really new heading and it's the BEST!
 subtitle: A project scaffold for getting building with Eleventy quickly.
 layout: layouts/base.njk
 ---
