@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zealous-liskov-935b53.netlify.com/posts/a-post/</loc>
+    <loc>https://site-root-url.com/posts/a-post/</loc>
   </url>
   <url>
-    <loc>https://zealous-liskov-935b53.netlify.com/posts/another-post/</loc>
+    <loc>https://site-root-url.com/posts/another-post/</loc>
   </url>
   <url>
-    <loc>https://zealous-liskov-935b53.netlify.com/posts/what-is-this/</loc>
+    <loc>https://site-root-url.com/posts/what-is-this/</loc>
   </url>
   <url>
-    <loc>https://zealous-liskov-935b53.netlify.com/about/</loc>
+    <loc>https://site-root-url.com/about/</loc>
   </url>
   <url>
-    <loc>https://zealous-liskov-935b53.netlify.com/</loc>
+    <loc>https://site-root-url.com/</loc>
   </url>
   <url>
-    <loc>https://zealous-liskov-935b53.netlify.com/applicant-integration/</loc>
+    <loc>https://site-root-url.com/applicant-integration/</loc>
   </url>
 </urlset>
