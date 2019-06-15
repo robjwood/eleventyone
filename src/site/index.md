@@ -1,5 +1,5 @@
 ---
-title: Title here
+title: This is new
 subtitle: A project scaffold for getting building with Eleventy quickly.
 layout: layouts/base.njk
 ---
